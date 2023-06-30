@@ -97,6 +97,67 @@ body {
     color: #1d3557;
 }
 
+.review__text {
+    font-weight: 900;
+    color: #1d3557;
+}
+
+.review__image {
+    width: 100%;
+}
+
+.restraunt__image {
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.footer__card {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+}
+
+.footer__conatiner {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    margin: 30px;
+    margin-top: 0.1px;
+    padding: 2px;
+}
+
+.footer__image__logo {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__card__list {
+    list-style-type: none;
+}
+
+.footer__card__text {
+    display: flex;
+    margin-left: 350px;
+    font-size: 11px;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     .explore__menu__lists {
         margin-top: 45px;
@@ -111,8 +172,8 @@ body {
 
     .explore__menu__gradient__bg {
         position: absolute;
-        /* top: 0;
-        left: 0; */
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         background-image: linear-gradient(
@@ -135,6 +196,41 @@ body {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+    }
+
+    .review__container {
+        position: relative;
+       margin-top: 15px;
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+       background-color: #F9F9F9;
+    }
+
+    .review__text {
+    
+    }
+
+    .review__image__container {
+        position: absolute;
+        display: flex;
+        /* flex-wrap: wrap;
+        gap: 4px; */
+        padding: 30px;
+        width: 70%;
+        height: 600px;
+    }
+
+    .review__image {
+        width: 100%;
+    }
+
+    .footer__card {
+        display: flex;
+    }
+
+    .footer__container {
+
     }
 }
 
